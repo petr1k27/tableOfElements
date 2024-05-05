@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-row: repeat(9, auto);
+}
+
+.element {
+    margin: 3px;
+    height: 100px;
+    width: 70px;
+    background-color: #5e5247;
+    border: 1px solid black;
+}
+
+.empty {
+    width: 1360px;
+
+
+}
